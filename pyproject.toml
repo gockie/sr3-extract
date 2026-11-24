@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sr3-extract"
+version = "1.0.0"
+description = "Formation-aware batch extraction and completeness auditing of CMG reservoir simulation time-series from SR3 files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Chisom K. Okwaraojimadu" },
+    { name = "Justin Ezekiel" },
+]
+keywords = ["reservoir simulation", "CMG", "SR3", "HDF5", "time-series", "carbon capture and storage"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "h5py>=3.11",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/gockie/sr3-extract"
+Repository = "https://github.com/gockie/sr3-extract"
+Issues = "https://github.com/gockie/sr3-extract/issues"
+
+[project.scripts]
+sr3-extract = "extract_sr3:main"
+
+[tool.setuptools]
+py-modules = ["extract_sr3"]

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SR3-Extract: Formation-aware batch extraction and completeness auditing of CMG reservoir simulation time-series"
+authors:
+  - family-names: Okwaraojimadu
+    given-names: Chisom K.
+  - family-names: Ezekiel
+    given-names: Justin
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+repository-code: "https://github.com/gockie/sr3-extract"
+keywords:
+  - reservoir simulation
+  - CMG
+  - SR3
+  - HDF5
+  - time-series extraction
+  - carbon capture and storage
