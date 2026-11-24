@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+extracted_xlsx/
+*.xlsx
+*.sr3
+*.dat
+!tests/**
+.DS_Store
+.venv/
+venv/
+paper/paper.pdf
+paper/*.jats
