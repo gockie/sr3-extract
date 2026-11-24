@@ -10,7 +10,7 @@ tags:
   - time-series extraction
 authors:
   - name: Chisom K. Okwaraojimadu
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0003-3339-4002
     corresponding: true
     affiliation: 1
   - name: Justin Ezekiel
